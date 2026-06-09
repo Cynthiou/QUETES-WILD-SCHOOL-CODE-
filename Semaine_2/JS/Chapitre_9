@@ -1,0 +1,15 @@
+const joueur = {
+  name: "Mbappé",
+  equipeActuel: "Real Madrid",
+  equipeAncienne: ["Monaco", "PSG"],
+  ballonDor: false,
+  meow: function () {
+    console.log("siuuuuu");
+  },
+};
+
+const joueurs = [
+  { name: "Mbappé", poste: "attaquant", nbSelection: 94 },
+  { name: "Kanté", poste: "milieu", nbSelection: 60 },
+  { name: "Digne", poste: "défenseur", nbSelection: 55 },
+];

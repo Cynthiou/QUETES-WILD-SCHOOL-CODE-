@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!--CE QU'ON NE VOIT PAS-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Cynthia Flores">
+    <meta name="description"
+        content="Identifie-toi à ton espace fan Teen Wolf. Accède à ton profil membre de la meute et retrouve tes contenus.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+    <link rel="stylesheet" href="style.css">
+    <title>Connexion | Membres de la meute Teen Wolf</title>
+
+
+</head>
+
+<!--CE QU'ON VOIT-->
+
+<body>
+
+    <!--HEADER-->
+    <header>
+        <h1>Connexion | Membre de la meute Teen Wolf</h1>
+        <p>Le site fan de la série culte</p>
+
+        <!--NAVIGATION-->
+        <nav>
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="personnages.html">Personnages</a></li>
+                <li><a href="episodes.html">Épisode</a></li>
+                <li><a href="connexion.html">Je m'identifie</a></li>
+                <li><a href="inscription.html">Je m'inscris</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--CONTENUE-->
+    <main>
+        <form action="/api/login" method="post">
+            <label for="identifiant">Identifiant</label>
+            <input type="email" id="identifiant" name="identifiant" placeholder="Saisis ton adresse mail" required><br>
+            <label for="password">Mot de passe</label>
+            <input type="password" id="password" name="password" placeholder="Saisis ton mot de passe" required><br>
+            <label><input type="checkbox">Mémoriser tes données pour la prochaine fois</label>
+            <button type="submit">Se connecter</button><br>
+            <a href="METTRE ADRRESSE APRES ">Mot de passe oublié ?</a><br>
+            <a href="inscription.html">Pas encore membre ?</a>
+        </form>
+    </main>
+    <!--BAS DE PAGE-->
+    <footer>
+
+        <section id=" contact">
+            <h4>Me contacter :</h4>
+            <a href="tel:0663972732">
+                <img src="assets/icone-tel.svg" alt="" />
+                Par Téléphone
+            </a>
+            <a href="mailto:cynthia.flores@hotmail.fr">
+                <img src="assets/icone-mail.svg" alt="" />
+                Par mail
+            </a>
+        </section>
+        <p>Copyright mai 2026 | Cynthia Flores | Developpeur Web </p>
+    </footer>
+</body>
+
+</html>
